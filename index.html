@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script type="text/javascript" src="myfunction.js"></script>
+<script type="text/javascript">
+var str=zeroPad(5,5);
+document.write(str);
+
+if(localStorage.pagecount)
+{
+    localStorage.pagecount=Number(localStorage.pagecount)+1;
+}
+else
+{
+    localStorage.pagecount=1;
+}
+document.write(localStorage.pagecount+" times");
+
+if(sessionStorage.pagecount)
+{
+    sessionStorage.pagecount=Number(sessionStorage.pagecount)+1;
+}
+else
+{
+    sessionStorage.pagecount=1;
+}
+document.write(sessionStorage.pagecount+" times");
+</script>
+</head>
+<body>
+</body>
+</html>
