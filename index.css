@@ -1,1 +1,31 @@
-#body{bgcolor:green;}
+.blog{
+    float:left;
+    margin:5px 5px 5px 30px;
+    width:650px;
+}
+
+.blogList{
+    margin:10px 5px 5px 30px;
+}
+
+.todolist{
+    float:left;
+    margin:5px 5px 5px 30px;
+}
+
+.blogdetail{
+    margin:5px 5px 5px 1px;
+    overflow: auto;
+}
+
+.tododetail{
+    margin:1px 5px 5px 1px;
+}
+
+a.readmore {
+    background: #fd8a61;
+    color: #fff;
+    padding: 5px 10px;
+    float: right;
+    margin: 20px 0 0 0;
+}

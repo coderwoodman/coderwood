@@ -1,0 +1,97 @@
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,em,button{
+    margin:0;
+    padding:0;
+}
+
+img, fieldset{
+    border:none;
+    vertical-align:middle;
+}
+
+input, textarea{
+    font-size:12px;
+}
+
+table{
+    border-collapse:collapse;
+}
+
+a{
+    color:black;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:none;
+}
+
+h1,h2,h3,h4,h5{
+    font-family:"Times New Roman",Simsun;
+}
+
+ul,ol{
+    #list-style:none;
+}
+
+.container{ 
+    font-size: 14px;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 30px;
+    padding-bottom: 10px;
+    padding-top: 0;
+    background-color: #d9d6cb;
+}
+
+.headerbox{
+    background-color: #20375f;
+    height: 75px;
+    vertical-align: middle;
+    color: #ccc;
+    padding-left: 10px;
+}
+
+.headermaintitle{
+    font-family: "Trebuchet MS";
+    padding-bottom: 10px;
+    color: #ccc;
+}
+
+.content{
+    background-color:white;
+    overflow:auto;
+}
+
+.menu{
+    height:30px;
+    text-align:right;
+    padding-right:80px;
+    background-color:#c8af93;
+}
+
+.menu a{
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    font-family: "微软雅黑", Arial, Helvetica, sans-serif;
+    color:black;
+    margin: 0px 10px 0px 10px;
+}
+
+.footer{
+    margin-top:20px;
+    padding-bottom:20px;
+    text-align:center;
+    overflow:hidden;
+    clear:both;
+    *zoom:1;
+}
+
+.footer .copyright{
+    font-family:Tahoma;
+    color:#999;
+}
+
