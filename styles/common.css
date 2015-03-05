@@ -3,6 +3,11 @@ html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,
     padding:0;
 }
 
+body{
+    font-size: 14px;
+    font-family: "微软雅黑",'Microsoft Yahei',Arial,Serif;
+}
+
 img, fieldset{
     border:none;
     vertical-align:middle;
@@ -25,24 +30,8 @@ a:hover{
     text-decoration:none;
 }
 
-h1,h2,h3,h4,h5{
-    font-family:"Times New Roman",Simsun;
-}
-
-ul,ol{
-    #list-style:none;
-}
-
 .container{ 
-    font-size: 14px;
-    font-family: Verdana,Arial,Helvetica,sans-serif;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 0;
-    margin-bottom: 10px;
-    padding: 30px;
-    padding-bottom: 10px;
-    padding-top: 0;
+    padding: 0px 150px 0px 150px;
     background-color: #d9d6cb;
 }
 
@@ -63,6 +52,7 @@ ul,ol{
 .content{
     background-color:white;
     overflow:auto;
+    padding: 15px 15px 30px 15px;
 }
 
 .menu{
