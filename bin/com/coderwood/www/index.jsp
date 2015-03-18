@@ -20,7 +20,6 @@
     <div id="content" name="content" class="content">
         <div id="mywork" name="mywork" class="mywork">
             目前的项目
-           <%= request.getParameter("first_name")%>
         </div>
         <div id="blog" name="blog">
             <h1>我的博客</h1>
